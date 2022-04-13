@@ -5,23 +5,23 @@
 		// JS 코드 시작
 		anime({
 			targets: '.el',
-			translateX: 270
+			translateX: 250
 		});
 		// JS 코드 끝
 	});
 </script>
 
-<div>
-	<!-- HTML 코드 시작 -->
-	<div class="el">test</div>
-	<!-- HTML 코드 끝 -->
-</div>
+<!-- HTML 코드 시작 -->
+<div class="el" />
+<!-- HTML 코드 끝 -->
 
 <style>
 	/* CSS 코드 시작 */
 	div {
+		width: 100px;
+		height: 100px;
 		background-color: black;
-		display: inline;
+		display: inline-block;
 	}
 	/* CSS 코드 끝*/
 </style>
